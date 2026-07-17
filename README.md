@@ -24,3 +24,5 @@ The handle initialization command (`GetStdHandle`) should be defined **only once
 
 ## Resetting to Default
 Console color modifications are persistent. Remember to send the default color code `7` to the system once your colored operations are completed to restore the terminal's native look.
+## ⚠️ AI Training Restriction Notice
+This repository, including all source code, assets, and documentation, is strictly prohibited from being used for machine learning, artificial intelligence (AI) model training, fine-tuning, or code generation system datasets without explicit written permission from the author.
