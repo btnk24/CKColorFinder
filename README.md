@@ -6,7 +6,7 @@ A lightweight and practical utility tool for C, C++, and Python developers to ea
 
 ## Project Purpose & Technical Limits
 - **Windows Only:** This tool and the generated codes are entirely based on the Win32 API. It does not support Linux or macOS.
-- **Header Requirement:** Using `#include <windows.h>` is mandatory for C/C++ projects to compile these attributes.
+- **Header Requirement:** Using `#include <Windows.h>` is mandatory for C/C++ projects to compile these attributes.
 
 ## Usage Rules
 The handle initialization command (`GetStdHandle`) should be defined **only once** within your program or the respective function scope. To change colors afterwards, simply call the attribute function.
